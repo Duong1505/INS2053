@@ -1,0 +1,42 @@
+body {
+    background-color: #f9f9f9;
+    color: #533737;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #888f96;
+    font-size: 32px;
+}
+
+h2 {
+    color: #4e5801;
+    font-size: 24px;
+}
+
+h3 {
+    color: #2980b9;
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 1.5;
+}
