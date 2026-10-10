@@ -1,0 +1,75 @@
+/* 5. Dọn dẹp chung */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;              /* Bỏ margin mặc định của body */
+    width: 100%;            /* Cho bố cục chiếm full chiều rộng */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* 1. Style header: Màu nền, màu chữ, padding, căn giữa */
+header {
+    background-color: #581d47; /* Màu nền tối */
+    color: #ffffff;            /* Màu chữ trắng */
+    padding: 30px 20px;        /* Padding tạo khoảng cách trên dưới */
+    text-align: center;        /* Căn chữ ra giữa */
+}
+
+/* 2. Style điều hướng (nav) */
+nav {
+    background-color: #cf0560; /* Màu nền cho thanh nav */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;     /* Bỏ dấu chấm đầu dòng của danh sách */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;     /* Hiện các liên kết nav theo hàng ngang */
+    margin: 0 15px;            /* Thêm khoảng cách giữa các liên kết */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+/* Hiệu ứng khi di chuột hoặc đang ở trang đó */
+nav a:hover,
+nav a.active {
+    color: #b61b09;            /* Đổi màu chữ */
+    background-color: #9c9c9a;
+    border-radius: 4px;
+}
+
+/* 3. Vùng nội dung chính (main) */
+main {
+    max-width: 900px;          /* Đặt max-width */
+    margin: 30px auto;         /* Căn giữa nội dung trên trang */
+    padding: 0 20px;           /* Thêm padding hai bên */
+    background-color: #ffffff;
+    min-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* 4. Style footer */
+footer {
+    background-color: #1a252f; /* Màu nền khác với header */
+    color: #ffffff;
+    text-align: center;        /* Căn chữ giữa */
+    padding: 20px 0;           /* Padding cho footer */
+    margin-top: 40px;
+}
