@@ -1,0 +1,184 @@
+/* 5. Dọn dẹp chung */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;              /* Bỏ margin mặc định của body */
+    width: 100%;            /* Cho bố cục chiếm full chiều rộng */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* 1. Style header: Màu nền, màu chữ, padding, căn giữa */
+header {
+    background-color: #2c3e50; /* Màu nền tối */
+    color: #ffffff;            /* Màu chữ trắng */
+    padding: 30px 20px;        /* Padding tạo khoảng cách trên dưới */
+    text-align: center;        /* Căn chữ ra giữa */
+}
+
+/* 2. Style điều hướng (nav) */
+nav {
+    background-color: #34495e; /* Màu nền cho thanh nav */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;     /* Bỏ dấu chấm đầu dòng của danh sách */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;     /* Hiện các liên kết nav theo hàng ngang */
+    margin: 0 15px;            /* Thêm khoảng cách giữa các liên kết */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+/* Hiệu ứng khi di chuột hoặc đang ở trang đó */
+nav a:hover,
+nav a.active {
+    color: #e74c3c;            /* Đổi màu chữ */
+    background-color: #2c3e50;
+    border-radius: 4px;
+}
+
+/* 3. Vùng nội dung chính (main) */
+main {
+    max-width: 900px;          /* Đặt max-width */
+    margin: 30px auto;         /* Căn giữa nội dung trên trang */
+    padding: 0 20px;           /* Thêm padding hai bên */
+    background-color: #ffffff;
+    min-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* 4. Style footer */
+footer {
+    background-color: #1a252f; /* Màu nền khác với header */
+    color: #ffffff;
+    text-align: center;        /* Căn chữ giữa */
+    padding: 20px 0;           /* Padding cho footer */
+    margin-top: 40px;
+}
+/* Reset cơ bản */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Thanh điều hướng (Nav & Menu) */
+nav {
+    background-color: #1e293b;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 24px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #3b82f6;
+}
+
+/* Đánh dấu trang hiện tại theo yêu cầu bài tập */
+nav li.active a {
+    background-color: #2563eb;
+    font-weight: bold;
+    border-bottom: 3px solid #facc15;
+}
+
+/* Nội dung chính (Main) */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #1e3a8a;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 6px;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #334155;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Hình ảnh responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 12px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 16px;
+    background-color: #e2e8f0;
+    color: #475569;
+    font-size: 0.9rem;
+}
